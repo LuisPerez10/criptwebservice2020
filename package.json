@@ -1,0 +1,22 @@
+{
+    "name": "webservice_cripto",
+    "version": "1.0.0",
+    "description": "Web services cripto 2021",
+    "main": "index.js",
+    "scripts": {
+        "start:dev": "nodemon index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "Luis Enrique Perez",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "carrier": "^0.3.0",
+        "child_process": "^1.0.2",
+        "dotenv": "^8.2.0",
+        "express": "^4.17.1",
+        "express-fileupload": "^1.2.1",
+        "express-validator": "^6.10.0",
+        "mongoose": "^5.12.0"
+    }
+}
