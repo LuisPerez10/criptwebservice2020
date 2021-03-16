@@ -2,10 +2,14 @@ require('dotenv').config();
 
 const express = require('express');
 
+const cors = require('cors')
+
 
 // crear servidor express
 const app = express();
 
+//config cors
+app.use(cors())
 
 // lectura y parseo del body
 app.use(express.json());
